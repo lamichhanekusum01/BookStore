@@ -1,7 +1,6 @@
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
     color: #333;
 }
 
@@ -14,6 +13,7 @@ a {
 .navbar {
     background-color: #c3c1c1;
     border-bottom: 1px solid #ddd;
+color: #ffffff;
 }
 
 .navbar-nav .nav-link {
@@ -35,7 +35,8 @@ body {
   /* Top bar styling */
   .top-bar {
     background-color: #8a8df7; /* Background color for the top bar */
-    padding: 10px 0; /* Padding for top and bottom */
+    padding: 10px 0;
+    color: white/* Padding for top and bottom */
   }
   
   .top-bar p {
@@ -63,4 +64,82 @@ body {
       margin-left: 5px; /* Reduce spacing between social icons */
     }
   }
-  
+/* Banner Section Styles */
+/* Banner Section Styles */
+#banner {
+  position: relative; /* Make the banner section a positioned parent */
+  padding: 100px 0;
+  background-image: url('../img/book-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff; /* Set text color to ensure readability */
+}
+
+/* Overlay for the banner background */
+#banner::before {
+  content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for the desired opacity */
+}
+
+#banner h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+#banner p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+#banner .btn {
+  font-size: 1.1rem;
+  background-color: #8a8df7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+#banner .btn:hover {
+  background-color: #0056b3;
+}
+  /* Featured Books Section */
+#featured-books {
+  padding: 50px 0;
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Card Styles */
+.card {
+  border: none; /* Remove default card border */
+  transition: transform 0.3s; /* Add smooth hover transition */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Move card up slightly on hover */
+}
+
+.card img {
+  height: 300px; /* Set fixed height for book thumbnails */
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #666; /* Dark gray text color */
+}
