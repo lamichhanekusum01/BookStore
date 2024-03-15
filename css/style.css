@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #c3c1c1;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+/* Global color for the page */
+body {
+    background-color: #597edd;
+  }
+  
+  /* Top bar styling */
+  .top-bar {
+    background-color: #8a8df7; /* Background color for the top bar */
+    padding: 10px 0; /* Padding for top and bottom */
+  }
+  
+  .top-bar p {
+    margin-bottom: 0; /* Remove bottom margin for the paragraph */
+  }
+  
+  /* Social icon styling */
+  .top-bar .text-right a {
+    color: #ffffff; /* Color for social icons */
+    margin-left: 10px; /* Spacing between social icons */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .top-bar .col-md-6 {
+      text-align: center; /* Center align for smaller screens */
+      margin-bottom: 10px; /* Add some bottom margin for spacing */
+    }
+  
+    .top-bar .text-right {
+      text-align: center; /* Center align for smaller screens */
+    }
+  
+    .top-bar .text-right a {
+      margin-left: 5px; /* Reduce spacing between social icons */
+    }
+  }
+  
