@@ -143,3 +143,31 @@ body {
   font-size: 16px;
   color: #666; /* Dark gray text color */
 }
+/* Tab Navigation Styles */
+.nav-tabs {
+  margin-top: 30px;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+/* Tab Content Styles */
+.tab-content {
+  margin-top: 20px;
+}
+
+.tab-pane {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* Star Rating Styles */
+.star-rating {
+  color: #ffd700; /* Set star color */
+  font-size: 18px; /* Adjust star size */
+}
+
+.checked {
+  color: #ffd700; /* Set color for checked stars */
+}
